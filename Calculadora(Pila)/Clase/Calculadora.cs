@@ -79,7 +79,11 @@ namespace Calculadora_Pila_.Clase
 
         private static bool IsOperator(char c)
         {
-            return c == '+' || c == '-' || c == '*' || c == '/';
+            return 
+                c == '+' || 
+                c == '-' || 
+                c == '*' || 
+                c == '/';
         }
     }
 }
